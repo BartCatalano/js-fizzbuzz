@@ -1,7 +1,7 @@
 // Creazione generatore numeri base
-let somma = 0;   //    variabile d'appoggio
+const maxNum= 100;   //    variabile d'appoggio
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= maxNum; i++) {
     // crezione condizionale per multipli di 3 e 5
 if (i % 3 === 0 && i % 5 === 0 ) {
     console.log("FizzBuzz");
@@ -18,9 +18,6 @@ else if (i % 5 === 0) {
 else {
 console.log(i);
 }
-somma=somma+1;
-
-
 
 }
     
